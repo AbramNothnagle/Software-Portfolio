@@ -1,0 +1,309 @@
+.ma-box button{
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    cursor: pointer;
+    margin-top:15px;
+    float:left;
+    
+}
+.ma-box input{
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #fff;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    margin-top:15px;
+    float: left;
+
+}
+.ma-box img{
+    float: left;
+    margin-top:9px;
+    margin-left:20px;
+}
+
+.ma-box{
+    
+    width:100%;
+    height:60px;
+    left:0px;
+}
+#input1, #input2{
+    margin-left:50px; 
+    
+}
+#ma1{
+    top:60px;
+    background-color: rgb(3, 144, 175);
+}
+#ma2{
+    top:120px;
+    background-color: rgb(119, 228, 255);
+}
+
+
+.ma-box p {
+    
+    margin-top:10px;
+    float:left;
+    margin-left:50px;
+}
+
+/* Modals */
+.modal {     
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    top: 0%;
+    width: 100%;
+    height:100%;
+    font-family: arial;
+    font-size:14px;
+    background-color: transparent;
+    overflow: auto; /* Enable scroll if needed */
+}
+/* Modals */
+.outside_of_modal {     
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Sit on top */
+    top: 0%;
+    width: 100%;
+    height:100%;
+    font-size:14px;
+    background-color: transparent;
+    overflow: auto; /* Enable scroll if needed */
+}
+
+.modal-content input{
+    height: 40px;
+}
+.modal-content{
+    background-color: rgb(221, 221, 221);
+}
+.modal-content p{
+    position: static;
+    
+    padding: 12px 2px 0px;
+    margin:0;
+    text-align: left;
+
+}
+.modal-content-add-projects{
+    background-color:#fff;
+}
+
+
+.drop-down{
+    width:80%;
+    height: 40px;
+}
+
+.modal-content-2 input{
+    width:80%;
+}
+.modal-content-2 p{
+    margin-left: 10%;
+}
+
+.modal-content .modal-top input, .modal-content .modal-top p{
+    width:60%;
+    margin-left:20%;
+}
+
+#end-text, #end_submit{
+    margin-left:0%;
+}
+.modal-buttons button{
+    width:40%;
+    height:40px;
+    margin-top:12px; 
+}
+#submit, #info{
+    margin-left: 20%;
+}
+#submit{
+    background-color:rgb(66, 85, 252);
+    color:#fff;
+}
+
+/* Entry boxs */
+.box-button, .box-button2{
+    width: 120px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    background-color: #f3f3f3;
+    font-family: arial;
+    font-size: 16px;
+    color: #111;
+    cursor: pointer;
+}
+
+/* create projects box */
+.box-create{
+    width: 100%;
+    height:40px; 
+    background-color:rgb(252, 61, 61)
+}
+.box-create #top-bar h1{  
+    color:rgb(39, 39, 39);
+}
+
+/* Checkboxs */
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .checkbox-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox-container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox-container input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkbox-container:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkbox-container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+.arrow-button{
+    width: 30px;
+    border-radius:5px;
+    height: 30px;
+    border: none;
+    background-color: rgb(247, 247, 247);
+    font-family: Impact;
+    font-size: 24px;
+    color: black;
+    cursor: pointer;
+}
+.arrow-button:hover{
+    background-color: rgb(168, 167, 167);
+}
+.setting_button:hover{
+    background-color:rgb(168, 167, 167);
+}
+.columns a {
+    display:block;
+    margin: 0 auto;
+    margin-bottom:5px;
+    width: 80%;
+    height: 40px;
+    line-height:40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.columns button{
+    display:block;
+    margin: 0 auto;
+    margin-bottom:5px;
+    line-height:42px;
+    width: 80%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+home_page_button {
+    display:block;
+    margin: 0 auto;
+    margin-bottom:5px;
+    width: 80%;
+    height: 40px;
+    line-height:40px;
+    border: none;
+    background-color: #222;
+    font-family: arial;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+button:focus{
+    outline: none;
+}
+
+.moveable_modal{
+    width:700px; 
+    position:absolute; 
+    background-color:#fff;
+    z-index:6; 
+    border:1px solid rgb(177, 177, 177);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.shadow-modal{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.centering-modal{
+    left:50%;
+    margin-top:10%;
+    position: absolute;
+    margin-left:-350px;
+}

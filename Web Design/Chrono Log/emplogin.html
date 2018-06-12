@@ -1,0 +1,23 @@
+<link rel="stylesheet" type="text/css" href="style_now.css">
+<div class = "nav-login-emp-manager">
+    <div style='overflow:auto;' class="float-left">
+        <div class='ma-box' id='ma1'><form action = "includes/elogin.inc.php" method="POST">
+            
+            <input id ='input1' type="text" name="uid" placeholder="Username/email">
+            <input type="password" name="pwd" placeholder="Password">
+            <button type="submit" name="submit">Login</button>
+            <img src='images/employee.png' height='42' width='42'>
+            <p>Employee</p>
+        </form>
+        </div>
+    </div>
+    <div style='overflow:auto;' class="float-left">
+        <div class='ma-box' id='ma2'><form action = "includes/mlogin.inc.php" method="POST">
+            <input id ='input2' type="text" name="uid" placeholder="Username/email">
+            <input type="password" name="pwd" placeholder="Password">
+            <button type="submit" name="submit">Login</button>
+            <img src='images/manager.png' height='42' width='42'>
+            <p>Manager</p>
+        </form>
+    </div>
+</div>
